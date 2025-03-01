@@ -21,9 +21,9 @@ console.log("USD: " + usd + "usd","=> VND: " + vnd + "vnd");
 // 2.D: Calculate Time (hours:minutes:seconds)
 //Calculate Time (hours:minutes:seconds)
 let now = new Date();
-let hours = now.getHours.toString().padStart(2, '0');
-let minutes = now.getMinutes.toString().padStart(3, '0');
-let seconds =  now.getSeconds.toString().padStart(4, '0');
+let hours = now.getHours().toString().padStart(2, '0');
+let minutes = now.getMinutes().toString().padStart(2, '0');
+let seconds =  now.getSeconds().toString().padStart(2, '0');
 let time1 = `${hours}:${minutes}:${seconds}`;
 console.log("Time1: ", now);
 
